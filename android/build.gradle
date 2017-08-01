@@ -1,8 +1,8 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 24
+    buildToolsVersion "24.0.3"
 
     defaultConfig {
         minSdkVersion 16
@@ -19,6 +19,6 @@ android {
 }
 
 dependencies {
-    compile 'com.facebook.react:react-native:+'
-    compile 'com.google.android.gms:play-services-gcm:+'
+    compile 'com.facebook.react:react-native:0.44.0'
+    compile ('com.google.android.gms:play-services-gcm:9.8.0')
 }
